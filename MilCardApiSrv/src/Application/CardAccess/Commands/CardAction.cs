@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MilCardApiSrv.Application.CardAccess.Query;
+namespace MilCardApiSrv.Application.CardAccess.Commands;
 
 public class CardActionResult
 {
-    public List<string>? Actions { get; set; } 
+    public List<string>? Actions { get; set; }
 }

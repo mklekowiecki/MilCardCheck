@@ -191,11 +191,6 @@ public partial class InitialCreate : Migration
             table: "AspNetUsers",
             column: "NormalizedUserName",
             unique: true);
-
-        migrationBuilder.CreateIndex(
-            name: "IX_TodoItems_ListId",
-            table: "TodoItems",
-            column: "ListId");
     }
 
     /// <inheritdoc />

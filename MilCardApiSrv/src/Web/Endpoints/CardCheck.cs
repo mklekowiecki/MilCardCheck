@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Http.HttpResults;
-using MilCardApiSrv.Application.CardAccess.Query;
+using MilCardApiSrv.Application.CardAccess.Commands;
 using MilCardCheck.Application.CardAccess.Commands;
 
 namespace MilCardCheck.Web.Endpoints;

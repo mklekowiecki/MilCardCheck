@@ -8,12 +8,12 @@ namespace MilCardApiSrv.Domain.Enums;
 
 public enum CardStatus
 {
-    Ordered,
-    Inactive,
-    Active,
-    Restricted,
-    Blocked,
-    Expired,
-    Closed,
-    Any
+    Ordered = 0,
+    Inactive = 1,
+    Active = 2,
+    Restricted = 3,
+    Blocked = 4,
+    Expired = 5,
+    Closed = 6,
+    Any = 7
 }

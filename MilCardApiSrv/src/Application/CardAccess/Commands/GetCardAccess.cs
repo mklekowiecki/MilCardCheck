@@ -1,4 +1,4 @@
-﻿using MilCardApiSrv.Application.CardAccess.Query;
+﻿using MilCardApiSrv.Application.CardAccess.Commands;
 using MilCardApiSrv.Application.Common.Interfaces;
 using MilCardApiSrv.Application.Interfaces;
 using MilCardApiSrv.Domain.Enums;

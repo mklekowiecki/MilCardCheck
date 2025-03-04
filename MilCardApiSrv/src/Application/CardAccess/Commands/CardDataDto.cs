@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using MilCardApiSrv.Domain.Entities;
 using MilCardApiSrv.Domain.Enums;
 
-namespace MilCardApiSrv.Application.CardAccess.Query;
+namespace MilCardApiSrv.Application.CardAccess.Commands;
 internal class CardDataDto
 {
     public CardType CardType { get; set; }

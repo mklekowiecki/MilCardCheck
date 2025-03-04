@@ -8,7 +8,7 @@ namespace MilCardApiSrv.Domain.Enums;
 
 public enum PinSet
 {
-    Set,
-    NotSet,
-    Ignore
+    Set = 0,
+    NotSet = 1,
+    Ignore = 2
 }
